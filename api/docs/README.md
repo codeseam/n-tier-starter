@@ -14,6 +14,7 @@ Create a new app:
 Now lift the server:
 
 `cd api`
+
 `sails lift`
 
 *Hint*
@@ -36,5 +37,5 @@ Alter models for easy development `config/models.js` uncomment `migrate: alter`
 [x] Create Users api
   `sails generate api users`
   [X] Create User model
-  [x] Require npm modulues
+  [x] Require npm modules
     `npm install bcryptjs --save`
